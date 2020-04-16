@@ -1,4 +1,4 @@
-# VQ-VAE
+# VQ-VAE with an Inception ResNet v2 Decoder
 
 This is a VQ-VAE, but includes an experiment with adapting a state of the art classifier (Inception ResNet v2) into an encoder.  This is achieved by cutting the fully connected layers and adding what I've deemed a Dense Layer Channel Reduction (DLCR).
 
