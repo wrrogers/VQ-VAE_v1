@@ -6,6 +6,8 @@ The goal of an encoder in a VQ-VAE is to train a model that is also reduces the 
 
 Ideally it would be much better to add multiple layers to be able to create complex function applied to the collection of filters.  The goal of the DLCR is to create a dense network that also gradually reduces channels.  See the diagram below ...
 
+**Note: + signs represent concatentation and they are assumed to be 1x1 convolutions.**
+
 ![DLCR](https://github.com/wrrogers/VQ-VAE_v1/blob/master/dlcr.png)
 
 # Results
