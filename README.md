@@ -22,6 +22,7 @@ Recon Error: 0.00657987, Loss: 0.008241967, Perplexity: 4.484635
 **Residual Encoder:**
 
 Recon Error: 0.00189220, Loss: 0.0020413, Perplexity: 12.991144
+
 **DLCR:**
 
 Recon Error: 0.00214382, Loss 0.00232471, Perplexity: 12.10787
