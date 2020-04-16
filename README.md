@@ -9,7 +9,7 @@ Ideally it would be much better to add multiple layers to be able to create comp
 ![DLCR](https://github.com/wrrogers/VQ-VAE_v1/blob/master/dlcr.png)
 
 # Results
-As expected the DLCR method works better than using only a single 1x1 conv layer.  Overall the results may still be promising, but a little more work is needed.  The intial tests were done without a validation set.  The model using the DLCR method shows improved Perplexity which indicates better generalization.  My guess is that as it is, the DLCR method shows a lower reconstruction error, but it is in fact overfitting and a validation set is needed to show it.  See the results below ...
+As expected the DLCR method works better than using only a single 1x1 conv layer.  Overall the results may still be promising, but a little more work is needed.  The intial tests were done without a validation set.  The model using the DLCR method shows improved Perplexity which indicates better generalization.  My guess is that as it is, the DLCR method doesn't show a lower reconstruction error, but it is in fact because other models are overfitting and a validation set is needed to show it.  See the results below ...
 
 ### Comparing VQ-VAE with 1x1 conv layer and DLCR
 **Inception ResNet v2 /w 1 conv:**
