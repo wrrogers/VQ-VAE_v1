@@ -7,3 +7,14 @@ The goal of an encoder in a VQ-VAE is to train a model that is also reduces the 
 Ideally it would be much better to add multiple layers to be able to create complex function applied to the collection of filters.  The goal of the DLCR is to create a dense network that also gradually reduces channels.  See the diagram below ...
 
 ![DLCR](https://github.com/wrrogers/VQ-VAE_v1/blob/master/dlcr.png)
+
+# Results
+
+## Comparing VQ-VAE with 1x1 conv layer and DLCR
+Inception ResNet v2 /w 1 conv:   Recon Error: 0.00661658, Loss: 0.007578598, Perplexity: 12.36619
+Inception ResNet v2 /w DLCR:     Recon Error: 0.00657987, Loss: 0.008241967, Perplexity: 4.484635
+
+## Comparing Basic Residual Encoder and DLCR
+Residual Encoder:   Recon Error: 0.00189220, Loss: 0.0020413, Perplexity: 12.991144
+DLCR:               Recon Error: 0.00214382, Loss 0.00232471, Perplexity: 12.10787
+
