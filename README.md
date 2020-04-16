@@ -11,10 +11,14 @@ Ideally it would be much better to add multiple layers to be able to create comp
 # Results
 
 ## Comparing VQ-VAE with 1x1 conv layer and DLCR
-Inception ResNet v2 /w 1 conv: Recon Error: 0.00661658, Loss: 0.007578598, Perplexity: 12.36619
-Inception ResNet v2 /w DLCR:   Recon Error: 0.00657987, Loss: 0.008241967, Perplexity: 4.484635
+**Inception ResNet v2 /w 1 conv:**
+Recon Error: 0.00661658, Loss: 0.007578598, Perplexity: 12.36619
+**Inception ResNet v2 /w DLCR:**
+Recon Error: 0.00657987, Loss: 0.008241967, Perplexity: 4.484635
 
 ## Comparing Basic Residual Encoder and DLCR
-Residual Encoder:   Recon Error: 0.00189220, Loss: 0.0020413, Perplexity: 12.991144
-DLCR:               Recon Error: 0.00214382, Loss 0.00232471, Perplexity: 12.10787
+**Residual Encoder:**
+Recon Error: 0.00189220, Loss: 0.0020413, Perplexity: 12.991144
+**DLCR:**
+Recon Error: 0.00214382, Loss 0.00232471, Perplexity: 12.10787
 
