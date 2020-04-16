@@ -12,6 +12,7 @@ Ideally it would be much better to add multiple layers to be able to create comp
 As expected the DLCR method works better than using only a single 1x1 conv layer.  Overall the results may still be promising, but a little more work is needed.  The intial tests were done without a validation set.  The model using the DLCR method shows improved Perplexity which indicates better generalization.  My guess is that as it is, the DLCR method doesn't show a lower reconstruction error, but it is in fact because other models are overfitting and a validation set is needed to show it.  See the results below ...
 
 ### Comparing VQ-VAE with 1x1 conv layer and DLCR
+## after 256 epochs
 **Inception ResNet v2 /w 1 conv:**
 Recon Error: 0.00661658, Loss: 0.007578598, Perplexity: 12.36619
 
@@ -19,6 +20,7 @@ Recon Error: 0.00661658, Loss: 0.007578598, Perplexity: 12.36619
 Recon Error: 0.00657987, Loss: 0.008241967, Perplexity: 4.484635
 
 ### Comparing Basic Residual Encoder and DLCR
+## after 1024 epochs
 **Residual Encoder:**
 Recon Error: 0.00189220, Loss: 0.0020413, Perplexity: 12.991144
 
